@@ -3,6 +3,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class MAP {
+    public static (String[] args) {
     
         Map<String, Object> Alimentos = new HashMap<>();
 
@@ -23,6 +24,7 @@ public class MAP {
         System.out.println("Nome: " + Nome);
         System.out.println("Qunatidade: " + Quantidade);
         System.out.println("Preço: " + Preço);
+    }
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
         
